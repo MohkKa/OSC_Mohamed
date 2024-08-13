@@ -1,0 +1,16 @@
+cd Documents
+mkdir mohamed
+cd mohamed
+touch one.txt two.txt three.txt four.txt
+mkdir BAD
+touch bad.txt /home/mohkka/Documents/BAD
+mv one.txt /home/mohkka/Downloads
+cd /home/mohkka/Downloads
+cp one.txt copy.txt
+cd /home/mohkka/Documents/mohamed
+nano two.txt
+nano three.txt
+mv three.txt hello.txt
+rm four.txt
+rm -r BAD
+
